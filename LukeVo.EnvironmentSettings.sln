@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.MD = README.MD
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LukeVo.EnvironmentSettings.Test", "LukeVo.EnvironmentSettings.Test\LukeVo.EnvironmentSettings.Test.csproj", "{631C8FCF-6396-4F1A-A69B-71D57F5C5ADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{DFCC7FAB-BF9C-40A9-AF1E-F7CBFED66A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFCC7FAB-BF9C-40A9-AF1E-F7CBFED66A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFCC7FAB-BF9C-40A9-AF1E-F7CBFED66A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{631C8FCF-6396-4F1A-A69B-71D57F5C5ADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{631C8FCF-6396-4F1A-A69B-71D57F5C5ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{631C8FCF-6396-4F1A-A69B-71D57F5C5ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{631C8FCF-6396-4F1A-A69B-71D57F5C5ADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,10 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Luke Vo</Authors>
     <Company>Luke Vo</Company>
+    <PackageLicenseUrl>https://github.com/datvm/EnvironmentSettings/blob/master/LICENSE.MD</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/datvm/EnvironmentSettings</PackageProjectUrl>
+    <Description>Simple JSON Settings from Environment Variable.</Description>
+    <RepositoryUrl>https://github.com/datvm/EnvironmentSettings</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
