@@ -6,15 +6,15 @@ using System.Text;
 namespace LukeVo.EnvironmentSettings
 {
 
-    public static class EnvironmentSettings<T>
+    public static class EnvironmentSettings
     {
 
-        public static T GetInstance(string environmentName, Func<string, T> deserializationMethod)
+        public static T GetInstance<T>(string environmentName, Func<string, T> deserializationMethod)
         {
             return GetInstance(environmentName, EnvironmentVariableTarget.Process, deserializationMethod);
         }
 
-        public static T GetInstance(string environmentName, EnvironmentVariableTarget environmentVariableTarget, Func<string, T> deserializationMethod)
+        public static T GetInstance<T>(string environmentName, EnvironmentVariableTarget environmentVariableTarget, Func<string, T> deserializationMethod)
         {
             var environmentVariableValue = Environment.GetEnvironmentVariable(environmentName, environmentVariableTarget);
 
