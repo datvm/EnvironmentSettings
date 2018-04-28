@@ -9,6 +9,8 @@
     <PackageProjectUrl>https://github.com/datvm/EnvironmentSettings</PackageProjectUrl>
     <Description>Simple JSON Settings from Environment Variable.</Description>
     <RepositoryUrl>https://github.com/datvm/EnvironmentSettings</RepositoryUrl>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageTags>environment settings utility</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
